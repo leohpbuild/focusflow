@@ -1479,7 +1479,6 @@ function QuoteOfTheDay() {
     }["QuoteOfTheDay.useEffect"], [
         fetchQuote
     ]);
-    // 标签颜色映射 - 为不同标签分配不同颜色
     const tagColors = {
         motivation: 'blue',
         inspiration: 'green',
@@ -1503,7 +1502,7 @@ function QuoteOfTheDay() {
                                     className: "h-6 w-6 mr-2 text-primary"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -1511,13 +1510,13 @@ function QuoteOfTheDay() {
                                     children: "Inspirational Quote"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                            lineNumber: 97,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1531,23 +1530,23 @@ function QuoteOfTheDay() {
                                 className: `h-4 w-4 ${isLoading ? 'animate-spin' : ''}`
                             }, void 0, false, {
                                 fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                lineNumber: 111,
+                                lineNumber: 109,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                            lineNumber: 103,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                    lineNumber: 96,
+                    lineNumber: 94,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                lineNumber: 95,
+                lineNumber: 93,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1558,7 +1557,7 @@ function QuoteOfTheDay() {
                         children: "Loading quote..."
                     }, void 0, false, {
                         fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                        lineNumber: 116,
+                        lineNumber: 114,
                         columnNumber: 21
                     }, this),
                     error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1566,7 +1565,7 @@ function QuoteOfTheDay() {
                         children: error
                     }, void 0, false, {
                         fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                        lineNumber: 117,
+                        lineNumber: 115,
                         columnNumber: 17
                     }, this),
                     !isLoading && !error && quoteData && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("figure", {
@@ -1580,7 +1579,7 @@ function QuoteOfTheDay() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                lineNumber: 120,
+                                lineNumber: 118,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("figcaption", {
@@ -1591,7 +1590,7 @@ function QuoteOfTheDay() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                lineNumber: 123,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("figcaption", {
@@ -1610,23 +1609,23 @@ function QuoteOfTheDay() {
                                             children: tag
                                         }, index, false, {
                                             fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 127,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 125,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                                lineNumber: 126,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                        lineNumber: 119,
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this),
                     !isLoading && !error && !quoteData && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1634,19 +1633,19 @@ function QuoteOfTheDay() {
                         children: error || 'No quote available. Try refreshing.'
                     }, void 0, false, {
                         fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                        lineNumber: 144,
+                        lineNumber: 142,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-                lineNumber: 115,
+                lineNumber: 113,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/focusflow/QuoteOfTheDay.tsx",
-        lineNumber: 94,
+        lineNumber: 92,
         columnNumber: 5
     }, this);
 }
